@@ -1,4 +1,2 @@
-name = "Alice"
-age = 22
-print(name)
-print(age)
+a = 45.6789
+print("%.2f" %a)
