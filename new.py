@@ -24,3 +24,13 @@
 # a = "hello world"
 # b = a[::-1]
 # print(b.upper())
+
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         print(i)
+
+# for i in range(1, 101):
+#     sum = int(i * (i + 1) / 2)
+# print(sum)
+    
+    
