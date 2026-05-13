@@ -17,9 +17,20 @@
 #         print(num)
         
 # print("keep going")
-n = 10
-while n >=1:
-    print(n)
-    n = n - 1
-   
+# n = 10
+# while n >=1:
+#     print(n)
+#     n = n - 1
+
+count = 0
+for i in range(1, 51):
+    if i % 2 == 0:
+        count += i
+print(count)
     
+    
+count = 0
+for i in range(1, 51):
+    if i % 2 == 0:
+        count += i
+print(count)      # ← this must have NO indentation
