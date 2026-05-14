@@ -22,15 +22,23 @@
 #     print(n)
 #     n = n - 1
 
-count = 0
-for i in range(1, 51):
-    if i % 2 == 0:
-        count += i
-print(count)
+# count = 0
+# for i in range(1, 51):
+#     if i % 2 == 0:
+#         count += i
+# print(count)
     
     
-count = 0
-for i in range(1, 51):
-    if i % 2 == 0:
-        count += i
-print(count)      # ← this must have NO indentation
+# count = 0
+# for i in range(1, 51):
+#     if i % 2 == 0:
+#         count += i
+
+numbers = [3, 67, 23, 8, 99, 41, 5]
+long = numbers[0]
+for i in numbers:
+    if i > long:
+        long = i
+print(long)
+    
+    
