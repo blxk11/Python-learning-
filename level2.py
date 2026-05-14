@@ -34,11 +34,21 @@
 #     if i % 2 == 0:
 #         count += i
 
-numbers = [3, 67, 23, 8, 99, 41, 5]
-long = numbers[0]
+# numbers = [3, 67, 23, 8, 99, 41, 5]
+# long = numbers[0]
+# for i in numbers:
+#     if i > long:
+#         long = i
+# print(long)
+
+num = []
+count = 0
+numbers = [4, 15, 7, 23, 1, 11, 9, 42]
 for i in numbers:
-    if i > long:
-        long = i
-print(long)
+    if i > 10:
+        num.append(i)
+        count = num
+       
+print(len(count))
     
     
