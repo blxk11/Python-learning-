@@ -51,10 +51,20 @@
        
 # print(len(count))
 
-num = []
-numbers = [1, 2, 3, 4, 5]
+# num = []
+# numbers = [1, 2, 3, 4, 5]
+# for i in numbers:
+#     num.append(i)
+# print(num[::-1])
+
+unique = []
+numbers = [1, 3, 2, 3, 5, 1, 4, 2]
+
 for i in numbers:
-    num.append(i)
-print(num[::-1])
+    if i not in unique:
+        unique.append(i)
+print(unique)
+
+
     
     
