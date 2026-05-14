@@ -41,14 +41,20 @@
 #         long = i
 # print(long)
 
-num = []
-count = 0
-numbers = [4, 15, 7, 23, 1, 11, 9, 42]
-for i in numbers:
-    if i > 10:
-        num.append(i)
-        count = num
+# num = []
+# count = 0
+# numbers = [4, 15, 7, 23, 1, 11, 9, 42]
+# for i in numbers:
+#     if i > 10:
+#         num.append(i)
+#         count = num
        
-print(len(count))
+# print(len(count))
+
+num = []
+numbers = [1, 2, 3, 4, 5]
+for i in numbers:
+    num.append(i)
+print(num[::-1])
     
     
