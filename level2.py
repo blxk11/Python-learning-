@@ -57,14 +57,24 @@
 #     num.append(i)
 # print(num[::-1])
 
-unique = []
-numbers = [1, 3, 2, 3, 5, 1, 4, 2]
+# unique = []
+# numbers = [1, 3, 2, 3, 5, 1, 4, 2]
 
+# for i in numbers:
+#     if i not in unique:
+#         unique.append(i)
+# print(unique)
+
+num = []
+greater = []
+smaller = []
+numbers = [3, 15, 7, 23, 1, 11, 9, 42]
 for i in numbers:
-    if i not in unique:
-        unique.append(i)
-print(unique)
-
-
-    
+    if i < 10:
+        smaller.append(i)
+    elif i > 10:
+        greater.append(i)
+print(smaller)
+print(greater)
+        
     
