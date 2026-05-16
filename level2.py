@@ -77,13 +77,17 @@
 # print(smaller)
 # print(greater)
         
-numbers = [3, 67, 23, 8, 99, 41, 5]
-largest = numbers[0]
-for i in numbers:
-    if i > largest:
-        largest = i
-second = numbers[0]
-for i in numbers:
-    if i > second and i < largest:
-        second = i
-print(second)
+# numbers = [3, 67, 23, 8, 99, 41, 5]
+# largest = numbers[0]
+# for i in numbers:
+#     if i > largest:
+#         largest = i
+# second = numbers[0]
+# for i in numbers:
+#     if i > second and i < largest:
+#         second = i
+# print(second)
+
+for i in range(1 , 21):
+    if i % 2 == 0 and i % 3 == 0:
+        print(i)
