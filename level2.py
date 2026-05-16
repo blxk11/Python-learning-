@@ -65,16 +65,25 @@
 #         unique.append(i)
 # print(unique)
 
-num = []
-greater = []
-smaller = []
-numbers = [3, 15, 7, 23, 1, 11, 9, 42]
-for i in numbers:
-    if i < 10:
-        smaller.append(i)
-    elif i > 10:
-        greater.append(i)
-print(smaller)
-print(greater)
+# num = []
+# greater = []
+# smaller = []
+# numbers = [3, 15, 7, 23, 1, 11, 9, 42]
+# for i in numbers:
+#     if i < 10:
+#         smaller.append(i)
+#     elif i > 10:
+#         greater.append(i)
+# print(smaller)
+# print(greater)
         
-    
+numbers = [3, 67, 23, 8, 99, 41, 5]
+largest = numbers[0]
+for i in numbers:
+    if i > largest:
+        largest = i
+second = numbers[0]
+for i in numbers:
+    if i > second and i < largest:
+        second = i
+print(second)
