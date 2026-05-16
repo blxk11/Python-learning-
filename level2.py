@@ -88,6 +88,29 @@
 #         second = i
 # print(second)
 
-for i in range(1 , 21):
-    if i % 2 == 0 and i % 3 == 0:
-        print(i)
+# for i in range(1 , 21):
+#     if i % 2 == 0 and i % 3 == 0:
+#         print(i)
+
+
+for i in range(1 , 6):
+    for x in range(1, 11):
+      product = i * x
+      print(product, end=" ")
+    print()
+
+
+
+# # Outer loop: Iterates through the table numbers (1 to 5)
+# for i in range(1, 6):
+#     print(f"--- Multiplication Table for {i} ---")
+    
+#     # Inner loop: Iterates through multipliers (1 to 10)
+#     for j in range(1, 11):
+#         product = i * j
+#         print(f"{i} x {j} = {product}")
+    
+#     # Adds a blank line between tables for readability
+#     print() 
+
+        
