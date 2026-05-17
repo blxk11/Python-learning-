@@ -114,6 +114,14 @@
 #     print() 
 
 
-n = 5
-for i in range(1, 6):
-    print("* " * i)
+# n = 5
+# for i in range(1, 6):
+#     print("* " * i)
+
+num = int(input("Enter a number :"))
+if num > 0:
+    print("positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("zero")
