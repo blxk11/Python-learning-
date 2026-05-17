@@ -93,11 +93,11 @@
 #         print(i)
 
 
-for i in range(1 , 6):
-    for x in range(1, 11):
-      product = i * x
-      print(product, end=" ")
-    print()
+# for i in range(1 , 6):
+#     for x in range(1, 11):
+#       product = i * x
+#       print(product, end=" ")
+#     print()
 
 
 
@@ -113,4 +113,7 @@ for i in range(1 , 6):
 #     # Adds a blank line between tables for readability
 #     print() 
 
-        
+
+n = 5
+for i in range(1, 6):
+    print("* " * i)
